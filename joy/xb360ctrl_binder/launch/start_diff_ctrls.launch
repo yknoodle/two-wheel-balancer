@@ -1,0 +1,9 @@
+<launch>
+
+	<param name="joy_raw/deadzone" value="0.1" type="double"/>
+	<param name="base_ctrl/logical_voltage" value="1" type="int"/>
+	
+	<node name="joy_cmd" pkg="xb360ctrl_binder" type="binder_node" output="screen"/>
+	<node name="joy_raw" pkg="joy" type="joy_node" output="screen"/>
+	<node name="base_ctrl" pkg="diff_ctrl" type="diff_ctrl_node" output="screen"/>
+</launch>

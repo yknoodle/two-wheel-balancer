@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../I2Cdev/inc/I2Cdev.h
+math.h
+-
+stdlib.h
+-
+string.h
+-
+cstdint
+-
+
+../inc/LSM303DLHC.h
+I2Cdev.h
+../inc/I2Cdev.h
+
+/home/damien/Workspace/i2cdevlib/RaspberryPi/LSM303DLHC/src/LSM303DLHC.cpp
+LSM303DLHC.h
+/home/damien/Workspace/i2cdevlib/RaspberryPi/LSM303DLHC/src/LSM303DLHC.h
+

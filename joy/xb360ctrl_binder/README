@@ -1,0 +1,34 @@
+	joy
+	|--axes
+	|  |--left_toggle_x
+	|  |--left_toggle_y
+	|  |--left_trigger
+	|  |--right_toggle_x
+	|  |--right_toggle_y
+	|  |--right_trigger
+	|--buttons
+	   |
+	   v
+	   ...
+
+	** the linuxjoy program reads from a sensor
+	** message with joystick information and outputs
+	** a velocity message.
+
+	** commands are mapped to axes and buttons via
+	** the ros parameters
+
+	** COMPILE
+	** this software cannot run without ros, use catkin_make
+	** in the top level project directory
+
+	** COMMANDS (default)
+	** translate_x -> left_joy_axis_y
+	** translate_y -> none
+	** translate_z -> none
+	** rol -> none
+	** ptc -> none
+	** yaw -> right_joy_axis_x
+
+	** NAMESPACE (default)
+	** /cmd_vel

@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libLSM303DLHC.a  CMakeFiles/LSM303DLHC.dir/src/LSM303DLHC.cpp.o
+/usr/bin/ranlib lib/libLSM303DLHC.a

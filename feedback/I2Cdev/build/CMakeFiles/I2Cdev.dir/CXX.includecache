@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/I2Cdev.h
+math.h
+-
+stdlib.h
+-
+string.h
+-
+cstdint
+-
+
+/home/damien/Workspace/i2cdevlib/RaspberryPi/I2Cdev/src/I2Cdev.cpp
+I2Cdev.h
+/home/damien/Workspace/i2cdevlib/RaspberryPi/I2Cdev/src/I2Cdev.h
+wiringPiI2C.h
+/home/damien/Workspace/i2cdevlib/RaspberryPi/I2Cdev/src/wiringPiI2C.h
+stdio.h
+-
+

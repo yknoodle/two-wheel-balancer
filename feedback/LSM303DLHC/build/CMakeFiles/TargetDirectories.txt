@@ -1,0 +1,3 @@
+/home/damien/Workspace/i2cdevlib/RaspberryPi/LSM303DLHC/build/CMakeFiles/edit_cache.dir
+/home/damien/Workspace/i2cdevlib/RaspberryPi/LSM303DLHC/build/CMakeFiles/rebuild_cache.dir
+/home/damien/Workspace/i2cdevlib/RaspberryPi/LSM303DLHC/build/CMakeFiles/LSM303DLHC.dir
